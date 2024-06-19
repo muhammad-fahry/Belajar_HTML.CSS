@@ -82,6 +82,31 @@ body {
   display: none;
 }
 
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("img/Rak-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(1, 1, 3, 1) 3%);
+}
+
+h1 {
+  color: #ececec;
+  text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.8);
+}
+
 /* Media Querieis */
 
 /* Laptop */
@@ -98,15 +123,6 @@ body {
   }
   #hamburger-menu {
     display: inline-block;
-  }
-
-  /* hero sction */
-  .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background-image: url("D:\Github\Web 1\Belajar_HTML.CSS\web 1\img");
-    background-repeat: no-repeat;
   }
 
   .navbar .navbar-nav {

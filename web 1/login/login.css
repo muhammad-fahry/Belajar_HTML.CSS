@@ -1,0 +1,142 @@
+* {
+  margin: 20;
+  padding: 30;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("img/bg-login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+
+
+.button {
+  background: rgb(45, 126, 231);
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.input .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  color: #fff;
+  text-decoration: underline;
+
+}
+
+.input {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, .3);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 10px;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px 40px ;
+}
+.input h1 {
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);; 
+  font-size: 40px;
+  text-align: center;
+}
+
+.input .input-box {
+  color: #fff;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 3px solid rgba(255, 235, 255, 3);
+  border-radius: 40px;
+  font-size: 16px;
+  color: white;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.input .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: white;
+  text-decoration: none;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+.remember-forgot a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet */
+@media (max-width: 750px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/* Mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
