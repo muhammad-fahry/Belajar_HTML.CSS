@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Web 1</title>
+    <title>Dashboard Toko SparePart</title>
     <link rel="stylesheet" href="style.css">
 
     <!--font    -->
@@ -15,7 +15,7 @@
     <!--icon    -->
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
-  <body>
+
 
       <!-- navbar start-->
       <nav class="navbar">
@@ -24,14 +24,17 @@
         <div class="navbar-nav">
             <a href="#home">Home</a>
             <a href="#about">Tentang kami</a>
-            <a href="#menu">Menu</a>
+            <a href="#menu">SparePart Catalog</a>
+            <a href="#stok">Stock</a>
+            <a href="#log-out">Keluar</a>
             <a href="#contact">Kontak</a>
-        </div>
+          </div>
         <div class="navbar-extra">
             <a href="#" id="search"><i data-feather="search"></i></a>
             <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="user"><i data-feather="user"></i></a>
             <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-        </div>
+          </div>
         </div>
       </nav>
       <!-- navbar end-->
@@ -39,17 +42,97 @@
       <!-- Here Section Start -->
        <section class="hero" id="home">
         <main class="content">
-        <h1>Cari apa saja kebutuhanmu <span>DiToko SparePart</span></h1>
+        <h1>Cari apa saja kebutuhanmu di Toko<span>SparePart.</span></h1>
         <p>Kami menyediakan berbagai macam part kebutuhan konsumen semua ada dikami </p>
-        <a href="#" class="cta"></a> <button type="beli" class="button">beli</button>
-       </main>
-       </section>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>       
+    <!-- Here Section End -->
+    
+    <!-- Tentang kami section start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span>Kami</h2>
+      <p>Web ini dibuat oleh Muhammad Fahry sebagai tugas untuk memenuhin standart nilai
+        dan Web ini akan terus dikembangkan dampai bida di gunakan oleh orang umum
+      </p>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/Mobil.png" alt="Produk kami" class="img">
+          
+        </div>
+      </div>
+
+    </section>
+    <!-- Tentang kami section end-->
+    
+    <!-- Catalog Section start-->
+    <section id="menu" class="catalog">
+      <h2><span>SparePart</span>Catalog</h2>
+      <p>Pilih apapun kebutuhan SparePartmu di kami</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/push-in-fitting-1.jpg" alt="fitting" class="menu-card-img">
+          <h3 class="menu-card-title"> Push In Fitting 1/4" </h3>
+          <button type="submit" class="button">35.000</button>
+        </div>
+        <div class="menu-card">
+          <img src="img/push-in-fitting-1.jpg" alt="fitting" class="menu-card-img">
+          <h3 class="menu-card-title"> Push In Fitting 1/2" </h3>
+          <button type="submit" class="button">50.000</button>
+        </div>
+        <div class="menu-card">
+          <img src="img/push-in-fitting-1.jpg" alt="fitting" class="menu-card-img">
+          <h3 class="menu-card-title"> Push In Fitting 1/8" </h3>
+          <button type="submit" class="button">40.000</button>
+        </div>
+        <div class="menu-card">
+          <img src="img/push-in-fitting-1.jpg" alt="fitting" class="menu-card-img">
+          <h3 class="menu-card-title"> Push In Fitting 3/8" </h3>
+          <button type="submit" class="button">80.000</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog Section end-->
+    
+    <!-- Stock Section start-->
+    <section id="stock"  class="stock">
+
+      <main role="main" class="flex-shrink-0">
+        <div class="container">
+          <h1><span>Update</span>Stock</h1>
+          <table class="table table-tripod table-hover">
+            <thread>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama Product</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Harga</th>
+              </tr>
+            </thread>
+          </table>
+        </div>
+      </main>
+    </section>
+
+
+    <!-- Stock Section end-->
+
+    <!-- Contact Section start-->
+     <div id="contact" class="contact">
+      <h2><span>Kontak</span>Kami</h2>
+      <p>Hubungi kami untuk pemesanan dalam jumlah besar</p>
+     </div>
 
 
 
+    <!-- Contact Section end-->
 
-      <!-- Here Section End -->
 
+          
+
+          
     <!--icon    -->
     <script>
       feather.replace();

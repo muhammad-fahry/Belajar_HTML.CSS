@@ -17,6 +17,7 @@ body {
   font-family: "poppins", sanas-serif;
   background-color: var(--bg);
   color: #fff;
+  min-height: 5000px;
 }
 
 /* navbar*/
@@ -103,17 +104,123 @@ body {
 }
 
 .hero h1 {
-  font-size: 3vh;
-  color: #ececec;
-  text-shadow: 2px 2px 2px rgba(1, 1, 1, 0.8);
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(1, 1, 1, 20);
 }
 
+.hero .content {
+  padding: 1.4rem 7%;
+  max-width: 60rem;
+}
 .hero p {
-  font-size: 2vh;
-  color: #ececec;
-  text-shadow: 3px 3px 3px rgba(1, 1, 1, 0.8);
+  font-size: 2rem;
+  color: yellow;
+  text-shadow: 3px 3px 3px rgba(1, 1, 1, 20);
 }
 
+.hero .content h1 span {
+  color: yellow;
+  text-shadow: 5px 5px 5px rgba(1, 1, 1, 20);
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.8);
+}
+
+.about h2,
+.catalog h2,
+.contact h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  padding: 6rem 7% 1.4rem;
+  text-align: center;
+}
+
+.about-img {
+  display: flex;
+  margin-bottom: 20rem;
+}
+
+.about p,
+.catalog p,
+.contact {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem 11%;
+  margin-bottom: 5rem;
+}
+
+.about h2 span,
+.catalog h2 span,
+.contact h2 span {
+  color: var(--primary);
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+  margin: auto;
+}
+
+/* Menu Section */
+
+.catalog .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0rem;
+  justify-content: center;
+}
+
+.catalog .row .menu-card {
+  text-align: center;
+}
+
+.catalog .row .menu-card img {
+  margin-top: 2rem;
+  border-radius: 50%;
+  width: 30%;
+}
+
+.catalog .row .menu-card .menu-card-title {
+  margin-top: 1rem auto 0.5rem;
+}
+
+.catalog .row .menu-card .button {
+  background: rgb(45, 126, 231);
+  width: 50%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* Update Stock */
+.container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  padding: 6rem 7% 1.4rem;
+  text-align: center;
+}
+
+.container h1 span {
+  color: var(--primary);
+}
 /* Media Querieis */
 
 /* Laptop */
